@@ -20,6 +20,9 @@ public abstract class Subject {
         observers.remove(observer);
     }
 
+    /**
+     * 通知
+     */
     public void notice(){
         for (Observer observer : observers) {
             observer.update();

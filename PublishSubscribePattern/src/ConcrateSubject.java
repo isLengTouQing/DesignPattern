@@ -1,7 +1,7 @@
 /**
  * 具体主题/具体通知者
  */
-public class ConcreteSubject extends Subject{
+public class ConcrateSubject extends Subject{
     private String subjectState;
 
     public String getSubjectState() {
